@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get "hola", to: "main#hello"
+  root to: "main#hello"
+  
+  get "saludo", to: "main#hi"
+  post "hi", to: "main#greetings"
 end
