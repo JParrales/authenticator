@@ -1,3 +1,13 @@
+# == Schema Information
+#
+# Table name: todos
+#
+#  id          :integer          not null, primary key
+#  title       :string
+#  description :text
+#  due_date    :datetime
+#  priority    :integer
+#
 require 'test_helper'
 
 class TodoTest < ActiveSupport::TestCase
