@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :tweets
   get "hola", to: "main#hello"
   root to: "main#hello"
   
